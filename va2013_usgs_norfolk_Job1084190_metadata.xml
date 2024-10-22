@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://data.noaa.gov/resources/iso19139/schema.xsd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>gov.noaa.nmfs.inport:50134</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="UTF8">UTF8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>OCM Partners</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice gco:nilReason="missing"/>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address/>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:organisationName>
+        <gco:CharacterString>NOAA Office for Coastal Management</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>(843) 740-1202</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>2234 South Hobson Ave</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Charleston</gco:CharacterString>
+              </gmd:city>
+              <gmd:administrativeArea>
+                <gco:CharacterString>SC</gco:CharacterString>
+              </gmd:administrativeArea>
+              <gmd:postalCode>
+                <gco:CharacterString>29405-2413</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country gco:nilReason="missing"/>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>coastal.info@noaa.gov</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+          <gmd:onlineResource>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://coast.noaa.gov</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>NOAA Office for Coastal Management Website</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>NOAA Office for Coastal Management Home Page</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onlineResource>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:DateTime>2024-02-29T00:00:00</gco:DateTime>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata Part 2 Extensions for imagery and gridded data</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:spatialRepresentationInfo>
+    <gmd:MD_GridSpatialRepresentation>
+      <gmd:numberOfDimensions>
+        <gco:Integer>2</gco:Integer>
+      </gmd:numberOfDimensions>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_DimensionNameTypeCode" codeListValue="column">column</gmd:MD_DimensionNameTypeCode>
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer/>
+          </gmd:dimensionSize>
+          <gmd:resolution>
+            <gco:Length uom="foot [FT_US]">3</gco:Length>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:axisDimensionProperties>
+        <gmd:MD_Dimension>
+          <gmd:dimensionName>
+            <gmd:MD_DimensionNameTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_DimensionNameTypeCode" codeListValue="row">row</gmd:MD_DimensionNameTypeCode>
+          </gmd:dimensionName>
+          <gmd:dimensionSize>
+            <gco:Integer/>
+          </gmd:dimensionSize>
+          <gmd:resolution>
+            <gco:Length uom="foot [FT_US]">3</gco:Length>
+          </gmd:resolution>
+        </gmd:MD_Dimension>
+      </gmd:axisDimensionProperties>
+      <gmd:cellGeometry>
+        <gmd:MD_CellGeometryCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_CellGeometryCode" codeListValue="point">point</gmd:MD_CellGeometryCode>
+      </gmd:cellGeometry>
+      <gmd:transformationParameterAvailability>
+        <gco:Boolean>0</gco:Boolean>
+      </gmd:transformationParameterAvailability>
+    </gmd:MD_GridSpatialRepresentation>
+  </gmd:spatialRepresentationInfo>
+  <gmd:referenceSystemInfo>
+    <gmd:referenceSystemInfo xlink:title="NAD83(2011) / Virginia South (ftUS)">
+      <gmd:MD_ReferenceSystem>
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:authority>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>NAD83(2011) / Virginia South (ftUS)</gco:CharacterString>
+                </gmd:title>
+                <gmd:date>
+                  <gmd:CI_Date>
+                    <gmd:date>
+                      <gco:Date>2008-11-12</gco:Date>
+                    </gmd:date>
+                    <gmd:dateType>
+                      <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                    </gmd:dateType>
+                  </gmd:CI_Date>
+                </gmd:date>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                      <gco:CharacterString>European Petroleum Survey Group</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                              <gmd:URL>https://apps.epsg.org/api/v1/CoordRefSystem/6595/export/?format=gml</gmd:URL>
+                            </gmd:linkage>
+                          </gmd:CI_OnlineResource>
+                        </gmd:onlineResource>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role gco:nilReason="missing"/>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+              </gmd:CI_Citation>
+            </gmd:authority>
+            <gmd:code>
+              <gco:CharacterString>urn:ogc:def:crs:EPSG:6595</gco:CharacterString>
+            </gmd:code>
+            <gmd:version>
+              <gco:CharacterString>6.18.3</gco:CharacterString>
+            </gmd:version>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+    <gmd:referenceSystemInfo xlink:title="NAVD88 height (ftUS) feet">
+      <gmd:MD_ReferenceSystem xsi:schemaLocation="http://www.isotc211.org/2005/gmi https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd" uuid="7bfef30a-970e-48de-a173-675dc4b61695">
+        <gmd:referenceSystemIdentifier>
+          <gmd:RS_Identifier>
+            <gmd:authority>
+              <gmd:CI_Citation>
+                <gmd:title>
+                  <gco:CharacterString>NAVD88 height (ftUS) feet</gco:CharacterString>
+                </gmd:title>
+                <gmd:alternateTitle>
+                  <gco:CharacterString>NAVD88 height (ftUS) feet</gco:CharacterString>
+                </gmd:alternateTitle>
+                <gmd:citedResponsibleParty>
+                  <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName gco:nilReason="withheld"/>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                              <gmd:URL>https://apps.epsg.org/api/v1/VerticalCoordRefSystem/6360/?api_key=gml</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:name>
+                              <gco:CharacterString>NAVD88 height (ftUS) feet</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description>
+                              <gco:CharacterString>Link to Geographic Markup Language (GML) description of reference system.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:function>
+                              <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                            </gmd:function>
+                          </gmd:CI_OnlineResource>
+                        </gmd:onlineResource>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+                <gmd:citedResponsibleParty xlink:title="EPSG Registry">
+                  <gmd:CI_ResponsibleParty xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd" uuid="68498237-c535-48dd-a292-17c2fc36cb97">
+                    <gmd:organisationName>
+                      <gco:CharacterString>European Petroleum Survey Group</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:contactInfo>
+                      <gmd:CI_Contact>
+                        <gmd:onlineResource>
+                          <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                              <gmd:URL>https://www.epsg.org/</gmd:URL>
+                            </gmd:linkage>
+                            <gmd:name>
+                              <gco:CharacterString>European Petroleum Survey Group Geodetic Parameter Registry</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:description>
+                              <gco:CharacterString>Registry that accesses the EPSG Geodetic Parameter Dataset, which is a structured dataset of Coordinate Reference Systems and Coordinate Transformations.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:function>
+                              <gmd:CI_OnLineFunctionCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="search">search</gmd:CI_OnLineFunctionCode>
+                            </gmd:function>
+                          </gmd:CI_OnlineResource>
+                        </gmd:onlineResource>
+                      </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                      <gmd:CI_RoleCode codeList="https://www.ngdc.noaa.gov/metadata/published/xsd/schema/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="publisher">publisher</gmd:CI_RoleCode>
+                    </gmd:role>
+                  </gmd:CI_ResponsibleParty>
+                </gmd:citedResponsibleParty>
+                <gml:VerticalCS xmlns:epsg="urn:x-ogp:spec:schema-xsd:EPSG:1.0:dataset" gml:id="epsg-cs-6499">
+                  <gml:metaDataProperty>
+                    <epsg:CommonMetaData>
+                      <epsg:type>vertical</epsg:type>
+                      <epsg:informationSource>OGP</epsg:informationSource>
+                      <epsg:revisionDate>2006-11-28</epsg:revisionDate>
+                      <epsg:isDeprecated>false</epsg:isDeprecated>
+                    </epsg:CommonMetaData>
+                  </gml:metaDataProperty>
+                  <gml:identifier codeSpace="OGP">urn:ogc:def:cs:EPSG::6497</gml:identifier>
+                  <gml:name>Vertical CS. Axis: height (H). Orientation: up. UoM: foot [FT_US].</gml:name>
+                  <gml:remarks>Used in vertical coordinate reference systems.</gml:remarks>
+                  <gml:axis>
+                    <gml:CoordinateSystemAxis uom="urn:ogc:def:uom:EPSG::9003" gml:id="epsg-axis-114">
+                      <gml:descriptionReference xlink:href="urn:ogc:def:axis-name:EPSG::9904"/>
+                      <gml:identifier codeSpace="OGP">urn:ogc:def:axis:EPSG::114</gml:identifier>
+                      <gml:axisAbbrev>H</gml:axisAbbrev>
+                      <gml:axisDirection codeSpace="EPSG">up</gml:axisDirection>
+                    </gml:CoordinateSystemAxis>
+                  </gml:axis>
+                </gml:VerticalCS>
+              </gmd:CI_Citation>
+            </gmd:authority>
+            <gmd:code>
+              <gco:CharacterString>urn:ogc:def:crs:EPSG::6360</gco:CharacterString>
+            </gmd:code>
+          </gmd:RS_Identifier>
+        </gmd:referenceSystemIdentifier>
+      </gmd:MD_ReferenceSystem>
+    </gmd:referenceSystemInfo>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>2013 USGS Lidar: Norfolk (VA)</gco:CharacterString>
+          </gmd:title>
+          <gmd:alternateTitle>
+            <gco:CharacterString>va2013_usgs_norfolk_m4699_metadata</gco:CharacterString>
+          </gmd:alternateTitle>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2014-11-15</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/codeList.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+          <gmd:identifier>
+            <gmd:MD_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>NOAA/NMFS/EDM</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date gco:nilReason="inapplicable"/>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gmx:Anchor xlink:href="https://www.fisheries.noaa.gov/inport/item/50134" xlink:actuate="onRequest" xlink:title="InPort Catalog ID">50134</gmx:Anchor>
+              </gmd:code>
+            </gmd:MD_Identifier>
+          </gmd:identifier>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="inapplicable"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://www.fisheries.noaa.gov/inport/item/50134</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>Full Metadata Record</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>View the complete metadata record on InPort for more information about this dataset.</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="inapplicable"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="inapplicable"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://coast.noaa.gov/dataviewer</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>
+                                                                        Citation URL
+                                                                    </gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Online Resource</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="inapplicable"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:citedResponsibleParty>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="inapplicable"/>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://coast.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>
+                                                                        Citation URL
+                                                                    </gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>Online Resource</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role gco:nilReason="inapplicable"/>
+            </gmd:CI_ResponsibleParty>
+          </gmd:citedResponsibleParty>
+          <gmd:presentationForm gco:nilReason="unknown"/>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>Laser Mapping Specialist, Inc (LMSI) and The Atlantic Group (Atlantic) provided high accuracy, calibrated multiple return LiDAR for roughly 1,130 square miles around Norfolk, Virgina that either fully or partially cover the Virginia counties of Chesapeake, Hampton, James City, Newport News, Norfolk, Poquoson City, Portsmouth, Suffolk, Virginia Beach, Williamsburg, and York as well as the North Carolina counties of Camden and Currituck. The nominal point spacing for this project was no greater than 1 point every 0.7 meters. Dewberry used proprietary procedures to classify the LAS according to project specifications: 1-Unclassified, 2-Ground, 7-Noise, 9-Water, 10-Ignored Ground, 11-Withheld Points. OCM reclassified class 11 points to Class 15 - (as needed: Witheld Points).  Dewberry produced 3D breaklines and combined these with the final LiDAR data to produce seamless hydro flattened DEMs for the 1,458 (1500 m x 1500 m) UTM tiles and the 1,400 (5000 ft x 5000ft) State Plane tiles that cover the project area.
+This data set is a raster file of z values with  columns and  rows. The data set was extracted from a larger classified data set and only includes points classified as Ground within the requested geographic bounds.
+		</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>The purpose of this LiDAR data was to produce high accuracy 3D elevation products, including tiled LiDAR in LAS 1.2 format, 3D breaklines, 3D buildings, 2D buildings, forest polygons, tree points, 1 m cell size first return digital surface models, 1 m cell size last return digital surface models, and 1 m cell size hydro flattened Digital Elevation Models (DEMs).</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_ProgressCode" codeListValue="completed">completed</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>NOAA Office for Coastal Management</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(843) 740-1202</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>2234 South Hobson Ave</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Charleston</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>SC</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>29405-2413</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing"/>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>coastal.info@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://coast.noaa.gov</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>NOAA Office for Coastal Management Website</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>NOAA Office for Coastal Management Home Page</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:organisationName>
+            <gco:CharacterString>NOAA Office for Coastal Management</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>(843) 740-1202</gco:CharacterString>
+                  </gmd:voice>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>2234 South Hobson Ave</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Charleston</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString>SC</gco:CharacterString>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>29405-2413</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country gco:nilReason="missing"/>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>coastal.info@noaa.gov</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+              <gmd:onlineResource>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>https://coast.noaa.gov</gmd:URL>
+                  </gmd:linkage>
+                  <gmd:protocol>
+                    <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                  </gmd:protocol>
+                  <gmd:name>
+                    <gco:CharacterString>NOAA Office for Coastal Management Website</gco:CharacterString>
+                  </gmd:name>
+                  <gmd:description>
+                    <gco:CharacterString>NOAA Office for Coastal Management Home Page</gco:CharacterString>
+                  </gmd:description>
+                  <gmd:function>
+                    <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                  </gmd:function>
+                </gmd:CI_OnlineResource>
+              </gmd:onlineResource>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://www.tc211.org/ISO19139/resources/codeList.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:graphicOverview>
+        <gmd:MD_BrowseGraphic>
+          <gmd:fileName>
+            <gco:CharacterString>https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/4699/supplemental/va2013_usgs_norfolk_m4699.kmz</gco:CharacterString>
+          </gmd:fileName>
+          <gmd:fileDescription>
+            <gco:CharacterString>This graphic shows the coverage of the 2013 USGS Norfolk, VA lidar collection.</gco:CharacterString>
+          </gmd:fileDescription>
+          <gmd:fileType>
+            <gco:CharacterString>kmz</gco:CharacterString>
+          </gmd:fileType>
+        </gmd:MD_BrowseGraphic>
+      </gmd:graphicOverview>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Bare earth</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>Lidar - partner (no harvest)</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="https://data.noaa.gov/resources/iso19139/schema/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="project">project</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>InPort</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="inapplicable"/>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/793785/793785/va2013_usgs_norfolk_Job1084190.zip until 10 days after 10/21/2024. The file will then be deleted from the system.
+			Cite As: OCM Partners, [Date of Access]: 2013 USGS Lidar: Norfolk (VA) [Data Date Range], https://www.fisheries.noaa.gov/inport/item/50134.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_Constraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>NOAA provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. It is the responsibility of the user to determine whether or not the data is suitable for the intended purpose.</gco:CharacterString>
+          </gmd:useLimitation>
+        </gmd:MD_Constraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:accessConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:accessConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/793785/793785/va2013_usgs_norfolk_Job1084190.zip until 10 days after 10/21/2024. The file will then be deleted from the system.
+			Access Constraints: None</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+          <gmd:otherConstraints>
+            <gco:CharacterString>
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/793785/793785/va2013_usgs_norfolk_Job1084190.zip until 10 days after 10/21/2024. The file will then be deleted from the system.
+			Use Constraints: Users should be aware that temporal changes may have occurred since this data set was collected and some parts of this data may no longer represent actual surface conditions. Users should not use this data for critical applications without a full awareness of its limitations. These data depict the heights at the time of the survey and are only accurate for that time.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_RestrictionCode" codeListValue="otherRestrictions">otherRestrictions</gmd:MD_RestrictionCode>
+          </gmd:useLimitation>
+          <gmd:otherConstraints>
+            <gco:CharacterString>
+		This data set was compiled dynamically, and will exist on https://chs.coast.noaa.gov/pickup/dav/793785/793785/va2013_usgs_norfolk_Job1084190.zip until 10 days after 10/21/2024. The file will then be deleted from the system.
+			Distribution Liability: Any conclusions drawn from the analysis of this information are not the responsibility of USGS, The Atlantic Group, Dewberry, NOAA, the Office for Coastal Management or its partners.</gco:CharacterString>
+          </gmd:otherConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+          </gmd:classification>
+          <gmd:classificationSystem gco:nilReason="missing"/>
+          <gmd:handlingDescription gco:nilReason="missing"/>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:aggregationInfo>
+        <gmd:MD_AggregateInformation>
+          <gmd:aggregateDataSetName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>NOAA Data Management Plan (DMP)</gco:CharacterString>
+              </gmd:title>
+              <gmd:date gco:nilReason="unknown"/>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>NOAA/NMFS/EDM</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date gco:nilReason="inapplicable"/>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>50134</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName gco:nilReason="inapplicable"/>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>https://www.fisheries.noaa.gov/inportserve/waf/noaa/nos/ocmp/dmp/pdf/50134.pdf</gmd:URL>
+                          </gmd:linkage>
+                          <gmd:protocol>
+                            <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                          </gmd:protocol>
+                          <gmd:name>
+                            <gco:CharacterString>NOAA Data Management Plan (DMP)</gco:CharacterString>
+                          </gmd:name>
+                          <gmd:description>
+                            <gco:CharacterString>NOAA Data Management Plan for this record on InPort.</gco:CharacterString>
+                          </gmd:description>
+                          <gmd:function>
+                            <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                          </gmd:function>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role gco:nilReason="inapplicable"/>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:aggregateDataSetName>
+          <gmd:associationType>
+            <gmd:DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="crossReference">crossReference</gmd:DS_AssociationTypeCode>
+          </gmd:associationType>
+        </gmd:MD_AggregateInformation>
+      </gmd:aggregationInfo>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gco:CharacterString>eng; US</gco:CharacterString>
+      </gmd:language>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>elevation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>
+		-76.3448722
+		</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>
+		-76.1767248
+		</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>36.522422</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>37.382867</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="boundingTemporalExtent-1-1">
+                  <gml:description> | Currentness: Ground Condition</gml:description>
+                  <gml:beginPosition>2013-03-21</gml:beginPosition>
+                  <gml:endPosition>2013-04-05</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:supplementalInformation>
+        <gco:CharacterString>A footprint of this data set may be viewed in Google Earth at:
+https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/4699/supplemental/va2013_usgs_norfolk_m4699.kmz
+
+A report for this dataset is available at: 
+https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/4699/supplemental/va2013_usgs_norfolk_m4699_surveyreport.pdf
+
+Breaklines are available for this project but they have not be assessed by NOAA, therefore are only available by request.</gco:CharacterString>
+      </gmd:supplementalInformation>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:contentInfo>
+    <gmd:MD_FeatureCatalogueDescription>
+      <gmd:complianceCode>
+        <gco:Boolean>false</gco:Boolean>
+      </gmd:complianceCode>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng">eng</gmd:LanguageCode>
+      </gmd:language>
+      <gmd:includedWithDataset>
+        <gco:Boolean>false</gco:Boolean>
+      </gmd:includedWithDataset>
+      <gmd:featureCatalogueCitation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>none</gco:CharacterString>
+          </gmd:title>
+          <gmd:date gco:nilReason="unavailable"/>
+        </gmd:CI_Citation>
+      </gmd:featureCatalogueCitation>
+    </gmd:MD_FeatureCatalogueDescription>
+  </gmd:contentInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:distributor>
+        <gmd:MD_Distributor>
+          <gmd:distributorContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>NOAA Office for Coastal Management</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>(843) 740-1202</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>2234 South Hobson Ave</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>Charleston</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>SC</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>29405-2413</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country gco:nilReason="missing"/>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>coastal.info@noaa.gov</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>https://coast.noaa.gov</gmd:URL>
+                      </gmd:linkage>
+                      <gmd:protocol>
+                        <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+                      </gmd:protocol>
+                      <gmd:name>
+                        <gco:CharacterString>NOAA Office for Coastal Management Website</gco:CharacterString>
+                      </gmd:name>
+                      <gmd:description>
+                        <gco:CharacterString>NOAA Office for Coastal Management Home Page</gco:CharacterString>
+                      </gmd:description>
+                      <gmd:function>
+                        <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information">information</gmd:CI_OnLineFunctionCode>
+                      </gmd:function>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="distributor">distributor</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:distributorContact>
+        </gmd:MD_Distributor>
+      </gmd:distributor>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://coast.noaa.gov/dataviewer/#/lidar/search/where:ID=4699</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Customized Download</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Create custom data files by choosing data area, product type, map projection, file format, datum, etc.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://noaa-nos-coastal-lidar-pds.s3.amazonaws.com/laz/geoid18/4699/index.html</gmd:URL>
+              </gmd:linkage>
+              <gmd:protocol>
+                <gco:CharacterString>WWW:LINK-1.0-http--link</gco:CharacterString>
+              </gmd:protocol>
+              <gmd:name>
+                <gco:CharacterString>Bulk Download</gco:CharacterString>
+              </gmd:name>
+              <gmd:description>
+                <gco:CharacterString>Simple download of data files.</gco:CharacterString>
+              </gmd:description>
+              <gmd:function>
+                <gmd:CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</gmd:CI_OnLineFunctionCode>
+              </gmd:function>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Horizontal Positional Accuracy</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Lidar source compiled to meet 1 meter horizontal accuracy.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_AbsoluteExternalPositionalAccuracy>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Vertical Positional Accuracy</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>The vertical accuracy of the LiDAR was tested by Dewberry with 100 independent survey checkpoints.  The survey checkpoints were evenly distributed throughout the project area and were located in areas of bare earth and open terrain (20), tall weeds and crops (20), forested and fully grown (20), brush and small trees (20), and urban (20).  The vertical accuracy is tested by comparing survey checkpoints to a triangulated irregular network (TIN) that is created from the LiDAR points.  Checkpoints are always compared to interpolated surfaces created from the LiDAR point cloud because it is unlikely that a survey checkpoint will be located at the location of a discrete LiDAR point.
+
+Checkpoints in open terrain were used to compute the Fundamental Vertical Accuracy (FVA).  Project specifications required a FVA of 0.181 m based on a RMSEz (0.0925 m) x 1.9600.  All checkpoints were used to compute the Consolidated Vertical Accuracy (CVA).  Project specifications required a CVA of 0.269 m based on the 95th percentile. Supplemental Vertical Accuracy (SVA) was computed on each individual land cover category other than open terrain.  Target specifications for SVA are 0.269 m based on the 95th percentile.  NDEP and ASPRS testing methodologies allow individual SVA's to fail as long as the mandatory CVA passes project specifications.
+
+Based on the vertical accuracy testing conducted by Dewberry, using NSSDA and FEMA methodology, vertical accuracy at the 95% confidence level (called Accuracyz) is computed by the formula RMSEz x 1.9600. The dataset for the Norfolk, VA LiDAR project satisfies the criteria:
+Lidar dataset tested 0.129 m vertical accuracy at 95% confidence level in open terrain, based on RMSEz (0.066 m) x 1.9600.
+
+Consolidated Vertical Accuracy (CVA)
+Based on the vertical accuracy testing conducted by Dewberry, using NDEP and ASPRS methodology, consolidated vertical accuracy (CVA) is computed using the 95th percentile method.  The dataset for the Norfolk, VA LiDAR project satisfies the criteria:
+Lidar dataset tested 0.194 m consolidated vertical accuracy at 95th percentile in all land cover categories combined.
+
+Supplemental Vertical Accuracy
+Lidar dataset tested 0.198 m supplemental vertical accuracy at 95th percentile in the grass weeds and crops land cover category.
+Lidar dataset tested 0.163 m supplemental vertical accuracy at 95th percentile in the forested and fully grown land cover category.
+Lidar dataset tested 0.196 m supplemental vertical accuracy at 95th percentile in the brush lands and trees land cover category.
+Lidar dataset tested 0.196 m supplemental vertical accuracy at 95th percentile in the urban land cover category.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_AbsoluteExternalPositionalAccuracy>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_CompletenessCommission>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Completeness Report</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>A visual qualitative assessment was performed to ensure data completeness and bare earth data cleanliness. No void or missing data and data passes vertical accuracy specifications.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_CompletenessCommission>
+      </gmd:report>
+      <gmd:report>
+        <gmd:DQ_ConceptualConsistency>
+          <gmd:nameOfMeasure>
+            <gco:CharacterString>Conceptual Consistency</gco:CharacterString>
+          </gmd:nameOfMeasure>
+          <gmd:evaluationMethodDescription>
+            <gco:CharacterString>Data covers the tile scheme provided for the project area.</gco:CharacterString>
+          </gmd:evaluationMethodDescription>
+          <gmd:result gco:nilReason="missing"/>
+        </gmd:DQ_ConceptualConsistency>
+      </gmd:report>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement gco:nilReason="missing"/>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>The Atlantic Group (Atlantic) and Laser Mapping Specialist, Inc (LMSI) completed LiDAR data acquisition and data calibration for the USGS Norfolk, VA LiDAR project area.
+
+The project area included approximately 1,130 contiguous square miles for portions of Virginia and North Carolina. 
+
+Dewberry elected to subcontract the LiDAR Acquisition and Calibration activities to The Atlantic Group (Atlantic) and Laser Mapping Specialist Inc (LMSI). Atlantic and LMSI were responsible for providing LiDAR acquisition, calibration and delivery of LiDAR data files to Dewberry.
+
+Dewberry received high accuracy, calibrated multiple return swath data from Atlantic on May 21, 2013 and from LMSI on June 5, 2013.
+
+Atlantic operated a Cessna T-210 (Tail Number N732JE) outfitted with a LEICA ALS70-HP LiDAR system during the collection of the Southern portion of the study area. LIDAR acquisition began on March 25, 2013 and was completed on April 5, 2013. The flight plan was flown as planned with no modifications. There were no unusual occurrences during the acquisition and the sensor performed within specifications. There were 65 flight lines required to complete the project.
+
+Atlantic planned 64 passes for the Southern portion of the project area as a series of parallel flight lines with cross flightlines for the purposes of quality control. The flight plan included zigzag flight line collection as a result of the inherent IMU drift associated with all IMU systems.  In order to reduce any margin for error in the flight plan, Atlantic followed FEMAs Appendix A guidelines for flight planning and, at a minimum, includes the following criteria:
+A digital flight line layout using LEICA MISSION PRO flight design software for direct integration into the aircraft flight navigation system.
+Planned flight lines; flight line numbers; and coverage area.
+LiDAR coverage extended by a predetermined margin beyond all project borders to ensure necessary over-edge coverage appropriate for specific task order deliverables.
+Local restrictions related to air space and any controlled areas have been investigated so that required permissions can be obtained in a timely manner with respect to schedule. Additionally, Atlantic Group will file our flight plans as required by local Air Traffic Control (ATC) prior to each mission.
+Atlantic monitored weather and atmospheric conditions and conducted LiDAR missions only when no conditions exist below the sensor that will affect the collection of data. These conditions include leaf-off for hardwoods, no snow, rain, fog, smoke, mist and low clouds.  LiDAR systems are active sensors, not requiring light, thus missions may be conducted during night hours when weather restrictions do not prevent collection. Atlantic accesses reliable weather sites and indicators (webcams) to establish the highest probability for successful collection in order to position our sensor to maximize successful data acquisition.
+Within 72-hours prior to the planned day(s) of acquisition, Atlantic closely monitored the weather, checking all sources for forecasts at least twice daily. As soon as weather conditions were conducive to acquisition, our aircraft mobilized to the project site to begin data collection. Once on site, the acquisition team took responsibility for weather analysis.
+Atlantic LiDAR sensors are calibrated at a designated site located at the Lawrence County Airport in Courtland, Alabama and are periodically checked and adjusted to minimize corrections at project sites.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2013-03-01T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>All surveys were performed to Federal Geodetic Control Subcommittee (FGCS) FGCS guidelines.  Atlantic Group maximized existing NGS control and the ALDOT CORS stations to provide the control network, designed with proper redundancies, session occupation times, and time between sessions according to the applicable NOS technical standards.  GPS observations were conducted using Federal Geodetic Control Committee (FGCC) approved dual frequency GPS receivers.  A minimum of two fixed-height tripods were used as ground base stations running at a one (1.0) second epoch collection rate during every mission, typically at a minimum of four hours.  The control locations are planned to ensure a 28km baseline distance from the furthest flight line distance.  All mission collections were conducted with a PDOP of 3.2 or lower.  Also, the KP index is considered prior to mission collection and no collection occurred when the KP index was at or above 4.
+
+Airborn GPS Kinematic
+LEICA IPAS TC was used to post process the airborne solutions for the mission. IGS08 (EPOCH 2013.1011) coordinates from the OPUS solutions was used in the post processing. 
+Generation and Calibration of Laser Points (raw data)
+Data collected by the LiDAR unit is reviewed for completeness, acceptable density and to make sure all data is captured without errors or corrupted values. In addition, all GPS, aircraft trajectory, mission information, and ground control files are reviewed and logged into a database.
+
+On a project level, a supplementary coverage check is carried out to ensure no data voids are present.
+
+The initial points for each mission calibration are inspected for flight line errors, flight line overlap, slivers or gaps in the data, point data minimums, or issues with the LiDAR unit or GPS. Roll, pitch and scanner scale are optimized during the calibration process until the relative accuracy is met.
+
+Relative accuracy and internal quality are checked using at least 3 regularly spaced QC blocks in which points from all lines are loaded and inspected. Vertical differences between ground surfaces of each line are displayed. Color scale is adjusted so that errors greater than the specifications are flagged. Cross sections are visually inspected across each block to validate point to point, flight line to flight line and mission to mission agreement.
+
+Deliverables for the project included a raw (unclassified) calibrated LiDAR point cloud, survey control, and a final control report.
+
+Overall the LiDAR data products collected by Atlantic meet or exceed the requirements set out in the Statement of Work. The quality control requirements of Atlantics quality management program were adhered to throughout the acquisition stage fo this project to ensure product quality.
+
+For this project the specifications used are as follow:
+Relative accuracy &lt;= 6cm RMSEZ within individual swaths and &lt;=8 cm RMSEZ or within swath overlap (between adjacent swaths).
+
+UTM coordinate system, meters, zone 18, horizontal datum NAD83, vertical datum NAVD88, Geoid 12A</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2013-03-01T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>The Atlantic Group (Atlantic) and Laser Mapping Specialist, Inc (LMSI) completed LiDAR data acquisition and data calibration for the USGS Norfolk, VA LiDAR project area.
+
+The project area included approximately 1,130 contiguous square miles for portions of Virginia and North Carolina. 
+
+Dewberry elected to subcontract the LiDAR Acquisition and Calibration activities to The Atlantic Group (Atlantic) and Laser Mapping Specialist Inc (LMSI). Atlantic and LMSI were responsible for providing LiDAR acquisition, calibration and delivery of LiDAR data files to Dewberry.
+
+Dewberry received high accuracy, calibrated multiple return swath data from Atlantic on May 21, 2013 and from LMSI on June 5, 2013.
+
+LMSI planned 90 passes for the Northern portion of the project area as a series of parallel flight lines with cross flightlines for the purposes of quality control. The flight plan included zigzag flight line collection as a result of the inherent IMU drift associated with all IMU systems.  In order to reduce any margin for error in the flight plan, LMSI followed FEMAs Appendix A guidelines for flight planning and, at a minimum, includes the following criteria:
+A digital flight line layout using ALTM-NAV flight management software for direct integration into the aircraft flight navigation system.
+Planned flight lines; flight line numbers; and coverage area.
+LiDAR coverage extended by a predetermined margin beyond all project borders to ensure necessary over-edge coverage appropriate for specific task order deliverables.
+Local restrictions related to air space and any controlled areas have been investigated so that required permissions can be obtained in a timely manner with respect to schedule. Additionally LMSI will file our flight plans as required by local Air Traffic Control (ATC) prior to each mission.
+LMSI monitored weather and atmospheric conditions and conducted LiDAR missions only when no conditions exist below the sensor that will affect the collection of data. These conditions include leaf-off for hardwoods, no snow, rain, fog, smoke, mist and low clouds.  LiDAR systems are active sensors, not requiring light, thus missions may be conducted during night hours when weather restrictions do not prevent collection. LMSI accesses reliable weather sites and indicators (webcams) to establish the highest probability for successful collection in order to position our sensor to maximize successful data acquisition.
+Within 72-hours prior to the planned day(s) of acquisition, LMSI closely monitored the weather, checking all sources for forecasts at least twice daily. As soon as weather conditions were conducive to acquisition, our aircraft mobilized to the project site to begin data collection. Once on site, the acquisition team took responsibility for weather analysis.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2013-03-01T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>All airborne GPS trajectories were processed and checked on site. All trajectories were very high quality with forward/revers separation between 2cm-5cm.
+
+The initial step of calibration is to verify availability and status of all needed GPS and Laser data against field notes and compile any data if not complete.
+
+If a calibration error greater than specification is observed within the mission, the roll, pitch and scanner scale corrections that need to be applied are calculated. The missions with the new calibration values are regenerated and validated internally once again to ensure quality.
+
+Data collected by the LiDAR unit is reviewed for completeness, acceptable density and to make sure all data is captured without errors or corrupted values. In addition, all GPS, aircraft trajectory, mission information, and ground control files are reviewed and logged into a database.
+
+On a project level, a supplementary coverage check is carried out to ensure no data voids unreported by Field Operations are present.
+
+The initial points for each mission calibration are inspected for flight line errors, flight line overlap, slivers or gaps in the data, point data minimums, or issues with the LiDAR unit or GPS. Roll, pitch and scanner scale are optimized during the calibration process until the relative accuracy is met.
+
+Relative accuracy and internal quality are checked using at least 3 regularly spaced QC blocks in which points from all lines are loaded and inspected. Vertical differences between ground surfaces of each line are displayed. Color scale is adjusted so that errors greater than the specifications are flagged. Cross sections are visually inspected across each block to validate point to point, flight line to flight line and mission to mission agreement.
+
+Deliverables for the project included a raw (unclassified) calibrated LiDAR point cloud, survey control, and a final control report.
+
+Overall the LiDAR data products collected by LMSI meet or exceed the requirements set out in the Statement of Work. The quality control requirements of LMSIs quality management program were adhered to throughout the acquisition stage fo this project to ensure product quality.
+
+For this project the specifications used are as follow:
+Relative accuracy &lt;= 6cm RMSEZ within individual swaths and &lt;=8 cm RMSEZ or within swath overlap (between adjacent swaths).
+
+UTM coordinate system, meters, zone 18, horizontal datum NAD83, vertical datum NAVD88, Geoid 12A</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2013-03-01T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>Dewberry utilizes a variety of software suites for inventory management, classification, and data processing. All LiDAR related processes begin by importing the data into the GeoCue task management software.  The swath data is tiled according to project specifications (1,500 m x 1,500 m).  The tiled data is then opened in Terrascan where Dewberry uses proprietary ground classification routines to remove any non-ground points and generate an accurate ground surface. Before the actual ground routine is run points with scan angles greater than plus or minus 19 degrees are classified to class 11, withheld.  Due to these higher scan angles these points have the potential to introduce issues into the ground and are therefore not used in the final ground surface. The ground routine consists of three main parameters (building size, iteration angle, and iteration distance); by adjusting these parameters and running several iterations of this routine an initial ground surface is developed. The building size parameter sets a roaming window size. Each tile is loaded with neighboring points from adjacent tiles and the routine classifies the data section by section based on this roaming window size. The second most important parameter is the maximum terrain angle, which sets the highest allowed terrain angle within the model. Once the ground routine has been completed a manual quality control routine is done using hillshades, cross-sections, and profiles within the Terrasolid software suite. After this QC step, a peer review and supervisor manual inspection is completed on a percentage of the classified tiles based on the project size and variability of the terrain. After the ground classification corrections were completed, the dataset was processed through a water classification routine that utilizes breaklines compiled by Dewberry to automatically classify hydrographic features.  The water classification routine selects ground points within the breakline polygons and automatically classifies them as class 9, water. During this water classification routine, points that are within 1 meter of the hydrographic features are moved to class 10, an ignored ground due to breakline proximity. In addition to classes 1, 2, 9, 10, and 11, there is a Class 7, noise points . This class was used for both low and high noise points. 
+ 
+The fully classified dataset is then processed through Dewberry's comprehensive quality control program.   
+
+The data was classified as follows:
+Class 1 = Unclassified.  This class includes vegetation, buildings, noise etc.
+Class 2 = Ground
+Class 7= Noise
+Class 9 = Water
+Class 10=Ignored
+Class 11=Withheld Points
+
+
+The LAS header information was verified to contain the following:
+Class (Integer)
+Adjusted GPS Time (0.0001 seconds)
+Easting (0.003 m)
+Northing (0.003 m)
+Elevation (0.003 m)
+Echo Number (Integer 1 to 4)
+Echo (Integer 1 to 4)
+Intensity (8 bit integer)
+Flight Line (Integer)
+Scan Angle (Integer degree)</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2013-04-01T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>The NOAA Office for Coastal Management (OCM) received the topographic lidar files in LAS format from USGS. The files contained lidar easting, northing, elevation, intensity, return number, etc. The data was received in State Plane Virginia South 4502 NAD83 NADCON (US ft) and NAVD88 (US ft). OCM performed the following processing for data storage and Digital Coast provisioning purposes:
+1. The files were reviewed and erroneous elevations were removed. 
+2. Class 11 points (Witheld Points) were reclassified to Class 15 (as needed) to fit OCM DAV class scheme.</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2014-09-24T00:00:00</gco:DateTime>
+              </gmd:dateTime>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+          <gmd:processStep>
+            <gmd:LI_ProcessStep>
+              <gmd:description>
+                <gco:CharacterString>
+							
+The vertical values in this data set have been converted to reference NAVD88 height (ftUS) feet, using the GEOID18 grids provided by the National Geodetic Survey. 
+
+The data values in this data set have been rasterized and stored in a 32-bit Floating point GeoTIFF format. 
+
+The data values in this data set have been projected.  This projection is noted in another section of this metadata record. The projection library used was derived from the General Cartographic Transform Program developed by the United States Geological Survey, National Mapping Division.
+
+The cell values in this data set represent the average elevation measurement found within each cell, or if there were no values in the cell, a value may have been interpolated from surrounding cells with data values.  The perimeter cells of a 3x3 box surrounding the empty cell is queried for known values - if less than three values are found, then the perimeter cells of a 5x5 box is searched for known values.  This process is repeated for a 7x7 box if less than 3 values are found.  If less than three accumulated known values were found, then the cell is assigned a no data value (usually -999999 for formats that have a tag for the nodata value, otherwise an IEEE NaN value). If at least 3 values were found in that search, the value in the empty cell is interpolated from the known values using an Inverse Distance Weighting (IDW) method.
+
+The data has been reprojected as requested. See the spatial reference information for projection information.
+
+
+Processing notes: 
+
+						</gco:CharacterString>
+              </gmd:description>
+              <gmd:dateTime>
+                <gco:DateTime>2024-10-21T19:45:32
+</gco:DateTime>
+              </gmd:dateTime>
+              <gmd:processor>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>NOAA Office for Coastal Management</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>coastal.info@noaa.gov</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#gmd:CI_RoleCode" codeListValue="processor">processor</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:processor>
+            </gmd:LI_ProcessStep>
+          </gmd:processStep>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+</gmi:MI_Metadata>

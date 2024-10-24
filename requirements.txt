@@ -2,7 +2,6 @@ streamlit
 geopandas
 rasterio
 pandas
-matplotlib.pyplot
 numpy
 requests
 plotly

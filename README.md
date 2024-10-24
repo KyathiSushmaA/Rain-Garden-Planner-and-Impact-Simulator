@@ -38,7 +38,7 @@ This interactive web application helps users plan rain gardens by simulating sto
    ```
 4. **Run the application:**
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 
 ---

@@ -3,15 +3,15 @@ import geopandas as gpd
 import rasterio
 import pandas as pd
 from rasterio.plot import show
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 import requests
-import plotly.express as px
+#import plotly.express as px
 import folium
 from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 from datetime import datetime
-from PIL import Image
+#from PIL import Image
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
 

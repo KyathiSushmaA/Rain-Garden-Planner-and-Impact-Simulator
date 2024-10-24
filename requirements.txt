@@ -5,10 +5,7 @@ pandas
 numpy
 requests
 plotly
-plotly.express
 folium
 streamlit-folium
-folium.plugins
-rasterio.plot
 datetime
 PIL

@@ -12,6 +12,8 @@ from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 from datetime import datetime
 from PIL import Image
+from google.colab import drive
+drive.mount('/content/drive', force_remount=True)
 
 Image.MAX_IMAGE_PIXELS = None  # Disable the warning
 
@@ -23,12 +25,12 @@ st.title("Rain Garden Planner and Impact Simulator")
 # ------------------------------------
 # Load GIS Data: MS4 Service Areas
 # ------------------------------------
-ms4_areas = gpd.read_file("Hampton_Roads_MS4_Service_Areas.geojson")
+ms4_areas = gpd.read_file("/content/drive/My Drive/DS/Hampton_Roads_MS4_Service_Areas.geojson")
 
 # ------------------------------------
 # Load Elevation Data and Downscale
 # ------------------------------------
-with rasterio.open("Job1084190_001_001.tif") as src:
+with rasterio.open("/content/drive/My Drive/DS/Job1084190_001_001.tif") as src:
     elevation = src.read(1)
     elevation = np.where(elevation == src.nodata, np.nan, elevation)  # Handle NoData values
     downscale_factor = 10

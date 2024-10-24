@@ -7,5 +7,3 @@ requests
 plotly
 folium
 streamlit-folium
-datetime
-PIL

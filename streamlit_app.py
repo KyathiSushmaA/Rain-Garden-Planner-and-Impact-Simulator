@@ -11,7 +11,7 @@ import folium
 from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 from datetime import datetime
-#from PIL import Image
+from PIL import Image
 from google.colab import drive
 drive.mount('/content/drive', force_remount=True)
 

@@ -1,0 +1,15 @@
+streamlit
+geopandas
+rasterio
+pandas
+matplotlib.pyplot
+numpy
+requests
+plotly
+plotly.express
+folium
+streamlit-folium
+folium.plugins
+rasterio.plot
+datetime
+PIL

@@ -7,4 +7,3 @@ requests
 plotly
 folium
 streamlit-folium
-google.colab

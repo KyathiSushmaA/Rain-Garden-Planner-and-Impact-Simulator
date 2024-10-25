@@ -34,35 +34,45 @@ ms4_areas = gpd.read_file("Hampton_Roads_MS4_Service_Areas.geojson")
 # ------------------------------------
 # Create Folium Map and Display Maps
 # ------------------------------------
-# CSS for layout control
+# CSS to remove unnecessary padding between elements
 st.markdown(
     """
     <style>
     .block-container {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    .element-container {
+        margin-bottom: 0rem;
+        padding: 0rem;
+    }
+    .main {
         padding-top: 1rem;
-        padding-bottom: 1rem;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
-center = [36.8508, -76.2859]  # Latitude and Longitude for Norfolk, VA
+
+# Create the Folium Map centered on Norfolk, VA
+center = [36.8508, -76.2859]
 m = folium.Map(location=center, zoom_start=10)
 
-# Add MS4 service areas to the map
+# Add the MS4 GeoJSON layer
 folium.GeoJson(
     ms4_areas,
     name="MS4 Service Areas",
-    tooltip=folium.GeoJsonTooltip(fields=["LOCALITY"], aliases=["Locality:"])
+    tooltip=folium.GeoJsonTooltip(fields=["LOCALITY"], aliases=["Locality:"]),
 ).add_to(m)
 
-# Add layer control to toggle the MS4 areas on/off
+# Add layer control
 folium.LayerControl().add_to(m)
 
+# Use Streamlit container to display the map without gaps
 with st.container():
     st.write("Hampton Roads MS4 Service Areas")
-    st_folium(m, width=800, height=600)  # Display the MS4 map
-
+    st_folium(m, width=800, height=600)
+    
 # ------------------------------------
 # User Input: Rain Garden Size and Soil Type
 # ------------------------------------

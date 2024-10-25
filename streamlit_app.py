@@ -64,14 +64,14 @@ center = [36.8508, -76.2859]
 m = folium.Map(location=center, zoom_start=10)
 
 # Add the MS4 GeoJSON layer
-# folium.GeoJson(
-#     ms4_areas,
-#     name="MS4 Service Areas",
-#     tooltip=folium.GeoJsonTooltip(fields=["LOCALITY"], aliases=["Locality:"]),
-# ).add_to(m)
+folium.GeoJson(
+    ms4_areas,
+    name="MS4 Service Areas",
+    tooltip=folium.GeoJsonTooltip(fields=["LOCALITY"], aliases=["Locality:"]),
+).add_to(m)
 
-# # Add layer control
-# folium.LayerControl().add_to(m)
+# Add layer control
+folium.LayerControl().add_to(m)
 
 # Use Streamlit container to display the map without gaps
 with st.container():

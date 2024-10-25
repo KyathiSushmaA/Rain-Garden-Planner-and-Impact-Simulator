@@ -35,29 +35,29 @@ ms4_areas = gpd.read_file("Hampton_Roads_MS4_Service_Areas.geojson")
 # Create Folium Map and Display Maps
 # ------------------------------------
 # CSS to remove unnecessary padding between elements
-# st.markdown(
-#     """
-#     <style>
-#     .block-container {
-#         padding-top: 0rem;
-#         padding-bottom: 0rem;
-#         margin: 0;
-#     }
-#     .element-container {
-#         margin-bottom: 0rem;
-#         padding: 0rem;
-#         margin: 0rem;
-#     }
-#     .stApp {
-#         overflow: hidden;
-#     }
-#     .main {
+st.markdown(
+    """
+    <style>
+    .block-container {
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin: 0;
+    }
+    .element-container {
+        margin-bottom: 0rem;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .stApp {
+        overflow: hidden;
+    }
+    .main {
 #         padding-top: 1rem;
-#     }
-#     </style>
-#     """,
-#     unsafe_allow_html=True
-# )
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Create the Folium Map centered on Norfolk, VA
 center = [36.8508, -76.2859]

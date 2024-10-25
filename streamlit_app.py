@@ -72,6 +72,9 @@ folium.LayerControl().add_to(m)
 with st.container():
     st.write("Hampton Roads MS4 Service Areas")
     st_folium(m, width=800, height=600)
+
+with st.expander("Hampton Roads MS4 Service Areas", expanded=True):
+    st_folium(m, width=800, height=600)
     
 # ------------------------------------
 # User Input: Rain Garden Size and Soil Type

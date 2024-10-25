@@ -11,11 +11,6 @@ import folium
 from folium.plugins import HeatMap
 from streamlit_folium import st_folium
 from datetime import datetime
-from PIL import Image
-from google.colab import drive
-drive.mount('/content/drive', force_remount=True)
-
-Image.MAX_IMAGE_PIXELS = None  # Disable the warning
 
 # ------------------------------------
 # Title for the app
@@ -25,17 +20,16 @@ st.title("Rain Garden Planner and Impact Simulator")
 # ------------------------------------
 # Load GIS Data: MS4 Service Areas
 # ------------------------------------
-ms4_areas = gpd.read_file("/content/drive/My Drive/DS/Hampton_Roads_MS4_Service_Areas.geojson")
+# Download the file from Google Drive
+url = "https://drive.google.com/uc?id=1Tfp6WNg2i6E7BkAWYSKwcIP0zTCUVzMx&export=download"
+response = requests.get(url)
 
-# ------------------------------------
-# Load Elevation Data and Downscale
-# ------------------------------------
-with rasterio.open("/content/drive/My Drive/DS/Job1084190_001_001.tif") as src:
-    elevation = src.read(1)
-    elevation = np.where(elevation == src.nodata, np.nan, elevation)  # Handle NoData values
-    downscale_factor = 10
-    elevation_small = elevation[::downscale_factor, ::downscale_factor]
-    bounds = src.bounds
+# Save it locally
+with open("Hampton_Roads_MS4_Service_Areas.geojson", "wb") as f:
+    f.write(response.content)
+
+# Read the local file with GeoPandas
+ms4_areas = gpd.read_file("Hampton_Roads_MS4_Service_Areas.geojson")
 
 # ------------------------------------
 # Create Folium Map and Display Maps
@@ -68,10 +62,6 @@ folium.LayerControl().add_to(m)
 with st.container():
     st.write("MS4 Service Areas")
     st_folium(m, width=800, height=600)  # Display the MS4 map
-
-with st.container():
-    st.write("Elevation Map")
-    st.image(elevation_small, caption="Elevation Map", use_column_width=True, clamp=True)  # Display the elevation map
 
 # ------------------------------------
 # User Input: Rain Garden Size and Soil Type
